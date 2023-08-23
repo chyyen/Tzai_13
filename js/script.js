@@ -64,12 +64,12 @@ reply_scripts = [
     },
     {
         text : ["我很認真啦！！！！",
-            "還是你可以幫我解題目就好🥺"],
+            "還是你可以幫我解題目就好 🥺"],
         photos: [],
         next_vertex : 3
     },
     {
-        text : ["不要鬧啦🥹幫我解題我就告訴你巨龍的線索"],
+        text : ["不要鬧啦 🥹 幫我解題我就告訴你巨龍的線索"],
         photos: [],
         next_vertex : 3
     },
@@ -86,7 +86,7 @@ reply_scripts = [
         next_vertex : -1
     },
     {
-        text : ["欸我看解答好像不是這樣⋯你好像不夠努力🥹但還是謝謝"],
+        text : ["欸我看解答好像不是這樣⋯", "你好像不夠努力 🥹 但還是謝謝"],
         photos : ["image83.jpg",
             "image2.jpg",
             "bus_stop.jpg"],

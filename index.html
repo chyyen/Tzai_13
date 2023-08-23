@@ -7,25 +7,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex flex-col items-center justify-center w-screen h-screen bg-gray-100 text-gray-800 p-10">
+<body class="flex flex-col items-center justify-center w-screen h-[85vh] bg-gray-100 text-gray-800 p-5">
 
     <!-- Component Start -->
-    <div class="flex flex-col flex-grow w-full max-w-xl bg-white shadow-xl rounded-lg overflow-hidden">
+    <div class="flex flex-col flex-grow w-full bg-white shadow-xl rounded-lg overflow-hidden">
         <div class="bg-gray-400">
             <div class="flex justify-between m-6">
                 <div>
-                    <span class="text-white text-xl"><</span>
+                    <span class="text-white text-6xl"><</span>
                 </div>
                 <div>
-                    <span class="text-left text-white text-xl">User</span>
+                    <span class="text-left text-white text-6xl">User</span>
                 </div>
                 <div>
-                    <span class="justify-self-center text-white text-xl">...</span>
+                    <span class="justify-self-center text-white text-6xl">...</span>
                 </div>
             </div>
         </div>
         <!--text part -->
-        <div id="chats" class="flex flex-col flex-grow h-0 p-4 overflow-auto">
+        <div id="chats" class="flex flex-col flex-grow p-4 overflow-auto">
             <!-- chat box sample
             <div class="flex w-full mt-2 space-x-3 max-w-xs">
                 <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
@@ -46,8 +46,8 @@
             -->
         </div>
         <!-- reply option part -->
-        <div class="flex justify-start bg-gray-300 p-4">
-            <div id="option" class="w-full"></div>
+        <div class="bg-gray-300 p-4 h-fit rounded-lg">
+            <div id="option" class="flex flex-col justify-center items-center w-full h-full mt-3 mb-3"></div>
         </div>
     </div>
     <!-- Component End  -->
