@@ -92,10 +92,11 @@ reply_scripts = [
         sleep_time : 400
     },
     {
-        text : ["欸我看解答好像不是這樣⋯", "你好像有點笨 🥹，但看在你這麼努力的份上還是給你線索吧"],
+        text : ["欸我看解答好像不是這樣⋯", "你好像有點笨，清大都這麼爛的嗎 😩😩，但看在你這麼努力的份上還是給你線索吧"],
         photos : ["image83.jpg",
             "image2.jpg",
-            "bus_stop.jpg"],
+            "bus_stop.jpg",
+            "zoo.jpg"],
         next_vertex : -1,
         sleep_time : 400
     }
